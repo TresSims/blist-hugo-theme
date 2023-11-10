@@ -36,6 +36,9 @@ module.exports = {
               '[class~="lead"]': {
                 color: theme("colors.gray.300"),
               },
+              body: {
+                borderColor: theme("colors.teal.400"),
+              },
               a: {
                 color: theme("colors.white"),
               },
@@ -56,16 +59,16 @@ module.exports = {
                 borderLeftColor: theme("colors.gray.600"),
               },
               h1: {
-                color: theme("colors.white"),
+                color: theme("colors.teal.400"),
               },
               h2: {
-                color: theme("colors.white"),
+                color: theme("colors.teal.400"),
               },
               h3: {
-                color: theme("colors.white"),
+                color: theme("colors.teal.400"),
               },
               h4: {
-                color: theme("colors.white"),
+                color: theme("colors.teal.400"),
               },
               "figure figcaption": {
                 color: theme("colors.gray.400"),

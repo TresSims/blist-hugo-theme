@@ -20,24 +20,12 @@ module.exports = {
         DEFAULT: {
           css: [
             {
-              "code::before": {
-                content: '""',
-              },
-              "code::after": {
-                content: '""',
-              },
-            },
-          ],
-        },
-        dark: {
-          css: [
-            {
               color: theme("colors.gray.400"),
               '[class~="lead"]': {
                 color: theme("colors.gray.300"),
               },
               body: {
-                borderColor: theme("colors.teal.400"),
+                borderColor: theme("colors.white"),
               },
               a: {
                 color: theme("colors.white"),
@@ -59,16 +47,16 @@ module.exports = {
                 borderLeftColor: theme("colors.gray.600"),
               },
               h1: {
-                color: theme("colors.teal.400"),
+                color: theme("colors.red.400"),
               },
               h2: {
-                color: theme("colors.teal.400"),
+                color: theme("colors.red.400"),
               },
               h3: {
-                color: theme("colors.teal.400"),
+                color: theme("colors.red.400"),
               },
               h4: {
-                color: theme("colors.teal.400"),
+                color: theme("colors.red.400"),
               },
               "figure figcaption": {
                 color: theme("colors.gray.400"),
@@ -98,6 +86,9 @@ module.exports = {
               },
             },
           ],
+        },
+        dark: {
+          css: [],
         },
       }),
     },

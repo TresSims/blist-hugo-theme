@@ -20,6 +20,7 @@ module.exports = {
         DEFAULT: {
           css: [
             {
+              maxWidth: "100ch",
               color: theme("colors.gray.400"),
               '[class~="lead"]': {
                 color: theme("colors.gray.300"),
